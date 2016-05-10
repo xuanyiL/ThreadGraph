@@ -1,0 +1,141 @@
+svg {
+  font: 10px sans-serif;
+}
+
+path {
+  fill: steelblue;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.brush .extent {
+  stroke: #fff;
+  fill-opacity: .125;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  stroke: teal;
+  fill: green;
+}
+
+.mnode {
+ fill: #00FFFF;
+ stroke: #000000;
+ stroke-width: 2;
+}
+
+.selected {
+  stroke: black;
+  fill: red;
+}
+
+
+.highlighted {
+  stroke: black;
+  fill: orange;
+}
+
+.anchorNode {
+	fill-opacity: 0.0;
+	fill: blue;
+	stoke: black;
+}
+
+.anchorText {
+	fill-opacity: 0.8;
+	fill: #4F510E;
+	stoke: green;
+  display: inherit;
+}
+
+.titleNode {
+	fill-opacity: 0.0;
+	fill: blue;
+	stoke: black;
+}
+
+.titleText {
+  display: inherit;
+	fill-opacity: 0.8;
+	fill: #4F510E;
+	stoke: green;
+}
+
+.selecting circle {
+  fill-opacity: 0;
+}
+
+.selecting circle.selected {
+  stroke: black;
+  fill: red;
+}
+
+.link-buildons {
+  fill: none;
+  stroke: blue;
+  stroke-width: 1px;
+  stroke-opacity: .6;
+  display: inline;
+}
+
+
+.link-cross-buildons {
+  fill: none;
+  stroke: blue;
+  stroke-width: 1px;
+  stroke-opacity: .6;
+  display: inline;
+}
+
+
+.link-references {
+  fill: none;
+  stroke: purple;
+  stroke-width: 1px;
+  stroke-opacity: .6;
+  display: inline;
+}
+
+.link2 {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+rect.pane {
+  cursor: move;
+  fill: none;
+  pointer-events: all;
+}
+
+rect.overview {
+  fill: none;
+}
+
+
+.threadtimeline_area {
+  height: 60px;
+}
+
+.svgNodeBase {
+  stroke-width: 1;  
+}
+
+.svgNode {
+  fill: #00FFFF;
+  stroke: #000000;
+}
+
+.svgNodeHighlight {
+  fill: orange;
+  stroke: #000000;
+}
+
+.svgNodeHide {
+  visibility:hidden;
+}

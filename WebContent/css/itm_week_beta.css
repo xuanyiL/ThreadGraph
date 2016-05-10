@@ -1,0 +1,300 @@
+#wrapper_draw {
+	width: 940px;
+	height: 430px;
+	background: #bbc5ad;
+	position: relative;
+}
+#up_area {
+	width: 940px;
+	height: 200px;
+}
+
+#list_area {
+	width: 260px;
+	height: 290px;
+	background: #F3FAD6;
+	margin : 5px;
+	position: absolute;
+	overflow-y:auto;
+}
+
+#list_area ul{
+	margin:0px;
+	padding:0px;
+}
+#list_area li{
+	padding: 2px 5px;
+	background: #a6e5a8;
+	margin: 1px 2px;
+	list-style-type:none;
+}
+#fm{
+	font-size: 12px;
+	width: 940px;
+	height: 15px;
+}
+#fm ul{
+	margin: 0px;
+	padding: 0px;
+}
+#fm li{
+	list-style-type:none;
+	float:left;
+}
+
+#threadinfo{
+	font-size:12px;
+	float:left;
+}
+#list_area #list_pointer{
+	background: #FFB479;
+}
+#list_area .hl{
+	background: #FFE9A3;
+}
+#zoom{
+	margin:0px;
+	padding: 0px;
+	font-size: 12px;
+	float: right;
+}
+
+#zoom li{
+	float: left;
+	list-style-type:none;
+}
+
+#fm #flag{
+	float: right;
+}
+
+#draw_ctrl{
+	font-size: 12px;
+	width: 940px;
+	height: 15px;
+}
+#draw_ctrl ul{
+	margin: 0px;
+	padding: 0px;
+}
+#draw_ctrl li{
+	list-style-type:none;
+	float:left;
+}
+#node_contral{
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+}
+#node_contral li{
+	list-style-type:none;
+	float:left;
+}
+
+#right_area{
+	top: 0px;
+	left: 0px;
+	width: 930px;
+	height: 420px;
+	background: #F3FAD6;
+	margin: 5px;
+	position: absolute;
+}
+
+#draw_area {
+	margin: 10px 10px 0px 10px;
+	width: 910px;
+	height: 120px;
+	position: absolute;
+	z-index: 4;
+}
+#reference_area {
+	margin: 10px 10px 0px 10px;
+	width: 910px;
+	height: 120px;
+	position: absolute;
+	z-index: 1;
+}
+.ref_line{
+	position: absolute;
+	background: black;
+}
+.bld_line{
+	position: absolute;
+	background: blue;
+}
+.ant_line{
+	position: absolute;
+	background: yellow;
+}
+.bld_arrow{
+	position: absolute;
+	background-image:url('../img/linearrow_blue.gif');
+}
+.ref_arrow{
+	position: absolute;
+	background-image:url('../img/linearrow_black.gif');
+}
+#buildon_area {
+	margin: 10px 10px 0px 10px;
+	width: 910px;
+	height: 120px;
+	position: absolute;
+	z-index: 2;
+}
+#annotate_area {
+	margin: 10px 10px 0px 10px;
+	width: 910px;
+	height: 120px;
+	position: absolute;
+	z-index:3;
+}
+#background_area {
+	margin: 10px 10px 0px 10px;
+	width: 910px;
+	height: 120px;
+	background: #8acc92;
+	position: absolute;
+	z-index: 0;
+}
+#time_area {
+	top:175px;
+	width:930px;
+	height: 15px;
+	position: absolute;
+	
+}
+#bar_area {
+	left: 30px;
+	top:130px;
+	width: 870px;
+	height: 45px;
+	position: absolute;
+	background-image:url('../img/timeline_thread.jpg');
+	background-color: white
+}
+#bar_left{
+	top:130px;
+	left: 0px;
+	width: 20px;
+	margin: 0px 5px;
+	height: 45px;
+	position:absolute;
+	background-color: white;
+	background-image:url('../img/arrowleft20x45.gif');
+}
+#bar{
+	width: 870px;
+	height: 45px;
+	position: absolute;
+}
+#bar_right{
+	top:130px;
+	left: 900px;
+	width: 20px;
+	margin: 0px 5px;
+	height: 45px;
+	position: absolute;
+	background-color: white;
+	background-image:url('../img/arrowright20x45.gif');
+}
+#pointer{
+	width: 560px;
+	height: 45px;
+	opacity:0.4;
+	filter:alpha(opacity=40);
+	background: #8ACC92;
+	position: absolute;
+}
+
+.rawnote {
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
+.rawtitle {
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
+.rawcontent {
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
+.note {
+	width: 5px;
+	height: 5px;
+}
+.timenode {
+	position: absolute;
+	font-size: 12px;
+}
+.barnote {
+	margin: 1px;
+	width: 3px;
+	height: 3px;
+	position: absolute;
+	background: green;
+}
+#draw_pointer {
+	background-image:url('../img/note10_red.gif');
+}
+.drawnote {
+	margin: 4px;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	background-image:url('../img/note10_blue.gif');
+}
+.drawnote .drawtitle{
+	top:0px;
+	left:12px;
+	margin: 0px;
+	padding: 0px;
+	width: 240px;
+	font-size:10px;
+	overflow: visible;
+	position: absolute;
+}
+.drawnote .drawauthor{
+	position: absolute;
+	top:10px;
+	left:12px;
+	margin:0px;
+	padding: 0px;
+	width: 240px;
+	font-size:10px;
+	overflow: visible;
+}
+.hl_drawnote {
+	margin: 4px;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	background-image:url('../img/note10_yellow.gif');
+}
+.hl_drawnote .drawtitle{
+	font-size:10px;
+	left:12px;
+	margin: 0px;
+	padding: 0px;
+	position:absolute;
+	top:0;
+	width: 240px;
+	overflow: visible;
+}
+.hl_drawnote .drawauthor{
+	font-size:10px;
+	left:12px;
+	margin:0px;
+	padding: 0px;
+	position:absolute;
+	top:10px;
+	width: 240px;
+	overflow: visible;
+}
+	
